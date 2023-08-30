@@ -1,37 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&family=Rubik+Puddles&display=swap");
+
 * {
-    margin: 0;
-    padding: 0;
-    background-color: #39dda1;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #39dda1;
 }
 
 #header {
     background-color: #000000; 
-    height: 100px;
 }
 
 #logo {
-    height: 100px;
-    width: 220px;
+  height: 100px;
+  width: 220px;
 }
-
-#quote {
-    margin-left: 270px;
-    margin-top: -88px;
-    font-size: 50px;
-    color: #39dda1;
-    background-color: #000000;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-
-.neonText {
-    color: #fff;
-    text-shadow:
-      0 0 7px #000000,
-      0 0 10px #000000,
-      0 0 21px #000000,
-      0 0 42px #0fa,
-      0 0 82px #000000,
-      0 0 92px #0fa,
-      0 0 102px #000000,
-      0 0 151px #000000;
-  }
