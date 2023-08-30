@@ -1,14 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&family=Rubik+Puddles&display=swap");
+
 * {
-    margin: 0;
-    padding: 0;
-    background-color: #39dda1;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #39dda1;
 }
 
 #header {
-    background-color: #000000; 
+  background-color: #000000;
 }
 
 #logo {
-    height: 100px;
-    width: 220px;
+  height: 100px;
+  width: 220px;
+}
+
+.insta-post {
+  font-family: "Roboto", sans-serif;
+  margin-left: 10%;
+  width: 400px;
+  height: 680px;
+}
+
+.white-border {
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  border-radius: 25px;
+}
+
+.user-icon img {
+  margin-top: 5%;
+  margin-left: 5%;
+  height: 55px;
+  border-radius: 50%;
+}
+
+.user-name p {
+  font-size: 16px;
+  margin-top: -11.5%;
+  margin-left: 22%;
+}
+
+.post-photo {
+  margin-top: 12%;
+  margin-left: 5%;
+  width: 89%;
+}
+
+.post-photo img {
+  height: 310px;
+  width: 100%;
+}
+
+.heart {
+  margin-left: 8%;
+  margin-top: 4%;
+}
+
+.heart i {
+  transform: scale(2.5);
+}
+
+.comment {
+  margin-left: 22%;
+  margin-top: -5%;
+}
+
+.comment i {
+  transform: scale(2.3);
+}
+
+.share {
+  margin-left: 36%;
+  margin-top: -5%;
+}
+
+.share i {
+  transform: scale(2.3);
+}
+
+.save {
+  margin-left: 89%;
+  margin-top: -4%;
+}
+
+.save i {
+  transform: scale(2.3);
+}
+
+.views {
+  margin-top: 5%;
+  margin-left: 5%;
+  font-size: 13px;
+}
+
+.caption span {
+  font-weight: bolder;
+  margin-left: 5%;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+a {
+  text-decoration: none;
+  color: black;
 }
